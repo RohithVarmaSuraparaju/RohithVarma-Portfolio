@@ -241,8 +241,8 @@ function App() {
               <div className="relative bg-gray-800/70 backdrop-blur-sm border border-green-400/30 rounded-xl p-8 hover:border-green-400 transition-all duration-300 transform hover:scale-105">
                 <Mail className="w-12 h-12 text-green-400 mb-4 mx-auto" />
                 <h3 className="text-2xl font-bold text-white mb-2">Email</h3>
-                <p className="text-gray-300 mb-4">rohith.varma@example.com</p>
-                <a href="mailto:rohith.varma@example.com">
+                <p className="text-gray-300 mb-4">suraparajurohithvarma@gmail.com</p>
+                <a href="mailto:suraparajurohithvarma@gmail.com">
                   <Button className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-5 rounded-full shadow-md">
                     Send Email
                   </Button>
@@ -255,8 +255,8 @@ function App() {
               <div className="relative bg-gray-800/70 backdrop-blur-sm border border-blue-400/30 rounded-xl p-8 hover:border-blue-400 transition-all duration-300 transform hover:scale-105">
                 <Linkedin className="w-12 h-12 text-blue-400 mb-4 mx-auto" />
                 <h3 className="text-2xl font-bold text-white mb-2">LinkedIn</h3>
-                <p className="text-gray-300 mb-4">linkedin.com/in/rohithvarma</p>
-                <a href="https://www.linkedin.com/in/rohithvarma" target="_blank" rel="noopener noreferrer">
+                <p className="text-gray-300 mb-4">linkedin.com/in/rohith-varma-suraparaju-9a73531b7/</p>
+                <a href="https://www.linkedin.com/in/rohith-varma-suraparaju-9a73531b7/" target="_blank" rel="noopener noreferrer">
                   <Button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full shadow-md">
                     Connect on LinkedIn
                   </Button>
@@ -269,8 +269,8 @@ function App() {
               <div className="relative bg-gray-800/70 backdrop-blur-sm border border-purple-400/30 rounded-xl p-8 hover:border-purple-400 transition-all duration-300 transform hover:scale-105">
                 <Github className="w-12 h-12 text-purple-400 mb-4 mx-auto" />
                 <h3 className="text-2xl font-bold text-white mb-2">GitHub</h3>
-                <p className="text-gray-300 mb-4">github.com/rohithvarma</p>
-                <a href="https://github.com/rohithvarma" target="_blank" rel="noopener noreferrer">
+                <p className="text-gray-300 mb-4">github.com/RohithVarmaSuraparaju</p>
+                <a href="https://github.com/RohithVarmaSuraparaju" target="_blank" rel="noopener noreferrer">
                   <Button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-5 rounded-full shadow-md">
                     View GitHub
                   </Button>
@@ -283,8 +283,8 @@ function App() {
               <div className="relative bg-gray-800/70 backdrop-blur-sm border border-pink-400/30 rounded-xl p-8 hover:border-pink-400 transition-all duration-300 transform hover:scale-105">
                 {/* <Phone className="w-12 h-12 text-pink-400 mb-4 mx-auto" /> */}
                 <h3 className="text-2xl font-bold text-white mb-2">Phone</h3>
-                <p className="text-gray-300 mb-4">+1 (555) 123-4567</p>
-                <a href="tel:+15551234567">
+                <p className="text-gray-300 mb-4">+1 913 2602522</p>
+                <a href="tel:+19132602522">
                   <Button className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-5 rounded-full shadow-md">
                     Call Me
                   </Button>
