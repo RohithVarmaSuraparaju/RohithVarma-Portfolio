@@ -1,19 +1,27 @@
-// vite.config.js
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
+diff --git a/vite.config.js b/vite.config.js
+index af0941b..e10fbb2 100644
+--- a/vite.config.js
++++ b/vite.config.js
+@@ -2,13 +2,19 @@ import { defineConfig } from 'vite'
+ import react from '@vitejs/plugin-react'
+ import tailwindcss from '@tailwindcss/vite'
+ import path from 'path'
++import { fileURLToPath } from 'url'
+ 
+-// https://vite.dev/config/
++const __filename = fileURLToPath(import.meta.url)
++const __dirname = path.dirname(__filename)
++
++// https://vitejs.dev/config/
+ export default defineConfig({
+-  plugins: [react(),tailwindcss()],
++  plugins: [react(), tailwindcss()],
+   resolve: {
+     alias: {
+       "@": path.resolve(__dirname, "./src"),
+     },
+   },
+ })
++
++
 
-// ESM-safe __dirname (works on Vercel)
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-
-export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
-})
