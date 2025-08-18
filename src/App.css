@@ -1,6 +1,49 @@
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
-/* Custom animations */
-@keyframes fadeIn {
+diff --git a/src/App.css b/src/App.css
+index 0b24653..4db8e4c 100644
+--- a/src/App.css
++++ b/src/App.css
+@@ -132,44 +132,6 @@ body {
+   -moz-osx-font-smoothing: grayscale;
+ }
+ 
+-/* Enhanced glowing text effect */
+-.glow-text {
+-  text-shadow: 
+-    0 0 5px #ffffff,
+-    0 0 10px #ffffff,
+-    0 0 15px #ffffff,
+-    0 0 20px #00ffff,
+-    0 0 35px #00ffff,
+-    0 0 40px #00ffff,
+-    0 0 50px #00ffff,
+-    0 0 75px #00ffff;
+-  animation: glow-pulse 2s ease-in-out infinite alternate;
+-}
+-
+-@keyframes glow-pulse {
+-  from {
+-    text-shadow: 
+-      0 0 5px #ffffff,
+-      0 0 10px #ffffff,
+-      0 0 15px #ffffff,
+-      0 0 20px #00ffff,
+-      0 0 35px #00ffff,
+-      0 0 40px #00ffff,
+-      0 0 50px #00ffff,
+-      0 0 75px #00ffff;
+-  }
+-  to {
+-    text-shadow: 
+-      0 0 2px #ffffff,
+-      0 0 5px #ffffff,
+-      0 0 8px #ffffff,
+-      0 0 12px #00ffff,
+-      0 0 18px #00ffff,
+-      0 0 25px #00ffff,
+-      0 0 35px #00ffff,
+-      0 0 50px #00ffff;
+-  }
+-}
+ 
+ /* Custom animations */
+ @keyframes fadeIn {
